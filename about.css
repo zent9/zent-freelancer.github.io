@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-color: #ff7200;
+
+}
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color:red;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out; 
+}
+
+ul li a:hover{
+    color: blue;
+}
+.about-1{
+    margin: 30px;
+    padding: 5px;
+
+}
+.about-1 h1{
+    text-align: center;
+    color: black;
+    font-weight:bold ;
+
+}
+.about-1 p{
+    text-align: center;
+    padding: 3px;
+    color: yellowgreen;
+
+}
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: aqua;
+    padding: 80px 30px;
+    text-align: center;
+    box-shadow: 0 0 9px  rgba(0,0,0.6);
+}
+.about-item i{
+    font-size:43px;
+    margin: 0;
+}
+.about-item h3{
+font-size: 43px;
+margin-bottom: 10px;
+}
+.about-item hr{
+    width: 1100px;
+    height: 2px;
+
+}
+footer{
+    background:#212226;
+    padding: 20px;
+    text-align: center;
+    background-color: red;
+}
+.button{
+    font-size: 2rem;
+}
+.footer p{
+color: #fff;
+
+}
